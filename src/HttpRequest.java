@@ -12,7 +12,11 @@ import java.util.Map;
 import org.codehaus.jackson.map.ObjectMapper;
 
 
-
+/**
+ * @author Ahn
+ * HttpRequest를 조금 더 쉽게 사용하고자 만든 유틸리티
+ *
+ */
 public class HttpRequest {
 	protected static String requestTo(HttpURLConnection conn) throws IOException {
 		StringBuffer res = new StringBuffer();
